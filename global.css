@@ -13,8 +13,22 @@ body {
   flex-flow: column;
   max-width: 80em;
   min-height: 100vh;
+  box-sizing: border-box;
   margin: auto;
   padding: 1em;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#map {
+  max-width: 1100px;
 }
 
 header {
